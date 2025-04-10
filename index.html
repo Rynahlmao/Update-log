@@ -6,42 +6,55 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: #f4f4f4;
+      background: #000000;
       margin: 0;
       padding: 20px;
+      color: #ffff00;
     }
     .container {
       max-width: 800px;
       margin: auto;
-      background: white;
+      background: #111;
       padding: 20px;
       border-radius: 8px;
     }
     h1 {
       text-align: center;
-      color: #333;
+      color: #ffff00;
     }
     .log-entry {
-      border-left: 4px solid #3498db;
+      border-left: 4px solid #ffff00;
       padding-left: 15px;
       margin-bottom: 20px;
     }
     .log-entry h2 {
       margin: 0;
       font-size: 20px;
-      color: #3498db;
+      color: #ffff00;
     }
     .log-entry p {
       margin: 5px 0 0;
     }
     .date {
       font-size: 14px;
-      color: #888;
+      color: #cccc00;
+    }
+    .back-link {
+      display: inline-block;
+      margin-bottom: 15px;
+      color: #ffff00;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .back-link:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
   <div class="container">
+    <a class="back-link" href="index.html">&larr; Back to Page</a>
+
     <h1>Update Log</h1>
 
     <div class="log-entry">
@@ -53,15 +66,15 @@
 
     <div class="log-entry">
       <h2>Version 1.1.0</h2>
-      <div class="date">April 5, 2025</div>
-      <p>Implemented save/load state system.</p>
+      <div class="date">April 10, 2025</div>
+      <p>Implemented Updated School Ids.</p>
       <p>Minor UI improvements and bug fixes.</p>
     </div>
 
     <div class="log-entry">
       <h2>Version 1.0.0</h2>
-      <div class="date">April 1, 2025</div>
-      <p>Initial release with basic emulator features.</p>
+      <div class="date">April 9, 2025</div>
+      <p>Initial release of Update logs</p>
     </div>
 
   </div>
